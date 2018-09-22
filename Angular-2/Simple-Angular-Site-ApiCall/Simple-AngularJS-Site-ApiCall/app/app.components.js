@@ -17,7 +17,7 @@ var AppComponent = /** @class */ (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'app-click-me',
-            template: "<button class=\"btn btn-primary\" (click)=\"onClickMe()\">Click me!</button>\n                            {{clickMessage}}",
+            template: "\n<div style=\"margin: 5px 0px 5px 0px;\">\n<button class=\"btn btn-primary\" (click)=\"onClickMe()\">Click me!</button>\n                            {{clickMessage}}\n</div>",
         })
     ], AppComponent);
     return AppComponent;
